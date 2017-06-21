@@ -27,6 +27,10 @@ None.
       dns_nameservers: [ '223.5.5.5', '223.6.6.6' ]
 ```
 
+## More features
+
+If you need more features about `/etc/resolv.conf`. Have a look at [jdaouphant.dns](https://galaxy.ansible.com/jdauphant/dns/).
+
 * * *
 
 <p align="center">Made with ❤ by <a href="http://index.m31271n.com">m31271n</a></p>
