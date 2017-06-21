@@ -1,0 +1,15 @@
+galaxy_info:
+  author: m31271n
+  description: Ansible role that sets DNS.
+  license: MIT
+  min_ansible_version: 2.3
+  platforms:
+  - name: EL
+    versions:
+    - 7
+
+  galaxy_tags:
+  - dns
+  - resolv.conf
+
+dependencies: []
