@@ -1,0 +1,15 @@
+---
+- name: unlock {{ dns_file_path }}
+  file:
+    path: '{{ dns_file_path }}'
+    attr: ''
+
+- name: configure {{ dns_file_path }}
+  template:
+    src: resolv.conf.j2
+    dest: '{{ dns_file_path }}'
+
+- name: lock {{ dns_file_path }}
+  file:
+    path: '{{ dns_file_path }}'
+    attr: 'i'
